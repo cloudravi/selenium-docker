@@ -1,0 +1,34 @@
+version: "3"
+services:
+  hub:
+    image: selenium/hub
+    ports:
+      - "4444:4444"
+  chrome:
+    image: selenium/node-chrome
+    shm_size: '1gb'
+    depends_on:
+      - hub
+    environment:
+      - HUB_HOST=hub
+    volumes:
+      - ./downloads:/home/seluser/Downloads
+  firefox:
+    image: selenium/node-firefox
+    depends_on:
+      - hub
+    environment:
+      - HUB_HOST=hub
+    volumes:
+      - ./downloads:/home/seluser/Downloads
+  BookFlight:
+    image: cloudravi/selenium-docker
+    depends_on:
+      - chrome
+      - firefox
+    environment:
+      - BROWSER=chrome
+      - HUB_HOST=hub
+      - MODULE=testng.xml
+    volumes:
+      - ./bookFlight-result:/home/DockerImageFolder/test-output

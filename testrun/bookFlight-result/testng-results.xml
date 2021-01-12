@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Book Flight Test" duration-ms="237736" started-at="2021-01-06T06:33:49 GMT" finished-at="2021-01-06T06:37:47 GMT">
+    <groups>
+    </groups>
+    <test name="Book flight for 1 passengers" duration-ms="144444" started-at="2021-01-06T06:33:49 GMT" finished-at="2021-01-06T06:36:14 GMT">
+      <class name="com.airlines.tests.BookFlightTest">
+        <test-method status="PASS" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:com.airlines.tests.BookFlightTest@58651fd0]" name="setUpDriver" is-config="true" duration-ms="79346" started-at="2021-01-06T06:33:49 GMT" finished-at="2021-01-06T06:35:09 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60c6f5b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="setupParameter(java.lang.String, java.lang.String)[pri:0, instance:com.airlines.tests.BookFlightTest@58651fd0]" name="setupParameter" is-config="true" duration-ms="0" started-at="2021-01-06T06:35:09 GMT" depends-on-methods="BasePackage.BaseTest.setUpDriver" finished-at="2021-01-06T06:35:09 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$584 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameter -->
+        <test-method status="PASS" signature="RegistrationPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@58651fd0]" name="RegistrationPageTest" duration-ms="56422" started-at="2021-01-06T06:35:11 GMT" finished-at="2021-01-06T06:36:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPageTest -->
+        <test-method status="PASS" signature="RegistrationConfirmationPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@58651fd0]" name="RegistrationConfirmationPageTest" duration-ms="804" started-at="2021-01-06T06:36:07 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.RegistrationPageTest" finished-at="2021-01-06T06:36:08 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationConfirmationPageTest -->
+        <test-method status="PASS" signature="FlightDetailsPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@58651fd0]" name="FlightDetailsPageTest" duration-ms="2009" started-at="2021-01-06T06:36:08 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.RegistrationConfirmationPageTest" finished-at="2021-01-06T06:36:10 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightDetailsPageTest -->
+        <test-method status="PASS" signature="FindFlightPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@58651fd0]" name="FindFlightPageTest" duration-ms="1578" started-at="2021-01-06T06:36:10 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.FlightDetailsPageTest" finished-at="2021-01-06T06:36:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindFlightPageTest -->
+        <test-method status="PASS" signature="FlightConfirmationPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@58651fd0]" name="FlightConfirmationPageTest" duration-ms="567" started-at="2021-01-06T06:36:12 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.FindFlightPageTest" finished-at="2021-01-06T06:36:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightConfirmationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.airlines.tests.BookFlightTest@58651fd0]" name="tearDown" is-config="true" duration-ms="1798" started-at="2021-01-06T06:36:12 GMT" finished-at="2021-01-06T06:36:14 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.airlines.tests.BookFlightTest -->
+    </test> <!-- Book flight for 1 passengers -->
+    <test name="Book flight for 3 passengers" duration-ms="193878" started-at="2021-01-06T06:33:49 GMT" finished-at="2021-01-06T06:37:03 GMT">
+      <class name="com.airlines.tests.BookFlightTest">
+        <test-method status="PASS" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:com.airlines.tests.BookFlightTest@59f99ea]" name="setUpDriver" is-config="true" duration-ms="169398" started-at="2021-01-06T06:33:49 GMT" finished-at="2021-01-06T06:36:39 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2038ae61]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="setupParameter(java.lang.String, java.lang.String)[pri:0, instance:com.airlines.tests.BookFlightTest@59f99ea]" name="setupParameter" is-config="true" duration-ms="1" started-at="2021-01-06T06:36:39 GMT" depends-on-methods="BasePackage.BaseTest.setUpDriver" finished-at="2021-01-06T06:36:39 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameter -->
+        <test-method status="PASS" signature="RegistrationPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@59f99ea]" name="RegistrationPageTest" duration-ms="18231" started-at="2021-01-06T06:36:39 GMT" finished-at="2021-01-06T06:36:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPageTest -->
+        <test-method status="PASS" signature="RegistrationConfirmationPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@59f99ea]" name="RegistrationConfirmationPageTest" duration-ms="782" started-at="2021-01-06T06:36:57 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.RegistrationPageTest" finished-at="2021-01-06T06:36:58 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationConfirmationPageTest -->
+        <test-method status="PASS" signature="FlightDetailsPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@59f99ea]" name="FlightDetailsPageTest" duration-ms="2241" started-at="2021-01-06T06:36:58 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.RegistrationConfirmationPageTest" finished-at="2021-01-06T06:37:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightDetailsPageTest -->
+        <test-method status="PASS" signature="FindFlightPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@59f99ea]" name="FindFlightPageTest" duration-ms="698" started-at="2021-01-06T06:37:00 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.FlightDetailsPageTest" finished-at="2021-01-06T06:37:01 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindFlightPageTest -->
+        <test-method status="PASS" signature="FlightConfirmationPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@59f99ea]" name="FlightConfirmationPageTest" duration-ms="2103" started-at="2021-01-06T06:37:01 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.FindFlightPageTest" finished-at="2021-01-06T06:37:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightConfirmationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.airlines.tests.BookFlightTest@59f99ea]" name="tearDown" is-config="true" duration-ms="396" started-at="2021-01-06T06:37:03 GMT" finished-at="2021-01-06T06:37:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.airlines.tests.BookFlightTest -->
+    </test> <!-- Book flight for 3 passengers -->
+    <test name="Book flight for 4 passengers" duration-ms="219026" started-at="2021-01-06T06:33:49 GMT" finished-at="2021-01-06T06:37:29 GMT">
+      <class name="com.airlines.tests.BookFlightTest">
+        <test-method status="PASS" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:com.airlines.tests.BookFlightTest@5e3a8624]" name="setUpDriver" is-config="true" duration-ms="200444" started-at="2021-01-06T06:33:49 GMT" finished-at="2021-01-06T06:37:10 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@617faa95]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="setupParameter(java.lang.String, java.lang.String)[pri:0, instance:com.airlines.tests.BookFlightTest@5e3a8624]" name="setupParameter" is-config="true" duration-ms="0" started-at="2021-01-06T06:37:10 GMT" depends-on-methods="BasePackage.BaseTest.setUpDriver" finished-at="2021-01-06T06:37:10 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$2338 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameter -->
+        <test-method status="PASS" signature="RegistrationPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@5e3a8624]" name="RegistrationPageTest" duration-ms="15539" started-at="2021-01-06T06:37:10 GMT" finished-at="2021-01-06T06:37:25 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPageTest -->
+        <test-method status="PASS" signature="RegistrationConfirmationPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@5e3a8624]" name="RegistrationConfirmationPageTest" duration-ms="258" started-at="2021-01-06T06:37:25 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.RegistrationPageTest" finished-at="2021-01-06T06:37:26 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationConfirmationPageTest -->
+        <test-method status="PASS" signature="FlightDetailsPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@5e3a8624]" name="FlightDetailsPageTest" duration-ms="1734" started-at="2021-01-06T06:37:26 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.RegistrationConfirmationPageTest" finished-at="2021-01-06T06:37:27 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightDetailsPageTest -->
+        <test-method status="PASS" signature="FindFlightPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@5e3a8624]" name="FindFlightPageTest" duration-ms="539" started-at="2021-01-06T06:37:27 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.FlightDetailsPageTest" finished-at="2021-01-06T06:37:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindFlightPageTest -->
+        <test-method status="PASS" signature="FlightConfirmationPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@5e3a8624]" name="FlightConfirmationPageTest" duration-ms="416" started-at="2021-01-06T06:37:28 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.FindFlightPageTest" finished-at="2021-01-06T06:37:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightConfirmationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.airlines.tests.BookFlightTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="82" started-at="2021-01-06T06:37:28 GMT" finished-at="2021-01-06T06:37:29 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.airlines.tests.BookFlightTest -->
+    </test> <!-- Book flight for 4 passengers -->
+    <test name="Book flight for 2 passengers" duration-ms="237736" started-at="2021-01-06T06:33:49 GMT" finished-at="2021-01-06T06:37:47 GMT">
+      <class name="com.airlines.tests.BookFlightTest">
+        <test-method status="PASS" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:com.airlines.tests.BookFlightTest@4501b7af]" name="setUpDriver" is-config="true" duration-ms="219856" started-at="2021-01-06T06:33:49 GMT" finished-at="2021-01-06T06:37:29 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e127982]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="setupParameter(java.lang.String, java.lang.String)[pri:0, instance:com.airlines.tests.BookFlightTest@4501b7af]" name="setupParameter" is-config="true" duration-ms="1" started-at="2021-01-06T06:37:29 GMT" depends-on-methods="BasePackage.BaseTest.setUpDriver" finished-at="2021-01-06T06:37:29 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1169 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameter -->
+        <test-method status="PASS" signature="RegistrationPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@4501b7af]" name="RegistrationPageTest" duration-ms="14756" started-at="2021-01-06T06:37:29 GMT" finished-at="2021-01-06T06:37:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPageTest -->
+        <test-method status="PASS" signature="RegistrationConfirmationPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@4501b7af]" name="RegistrationConfirmationPageTest" duration-ms="297" started-at="2021-01-06T06:37:44 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.RegistrationPageTest" finished-at="2021-01-06T06:37:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationConfirmationPageTest -->
+        <test-method status="PASS" signature="FlightDetailsPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@4501b7af]" name="FlightDetailsPageTest" duration-ms="1772" started-at="2021-01-06T06:37:44 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.RegistrationConfirmationPageTest" finished-at="2021-01-06T06:37:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightDetailsPageTest -->
+        <test-method status="PASS" signature="FindFlightPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@4501b7af]" name="FindFlightPageTest" duration-ms="537" started-at="2021-01-06T06:37:46 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.FlightDetailsPageTest" finished-at="2021-01-06T06:37:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindFlightPageTest -->
+        <test-method status="PASS" signature="FlightConfirmationPageTest()[pri:0, instance:com.airlines.tests.BookFlightTest@4501b7af]" name="FlightConfirmationPageTest" duration-ms="409" started-at="2021-01-06T06:37:47 GMT" depends-on-methods="com.airlines.tests.BookFlightTest.FindFlightPageTest" finished-at="2021-01-06T06:37:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightConfirmationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.airlines.tests.BookFlightTest@4501b7af]" name="tearDown" is-config="true" duration-ms="82" started-at="2021-01-06T06:37:47 GMT" finished-at="2021-01-06T06:37:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.airlines.tests.BookFlightTest -->
+    </test> <!-- Book flight for 2 passengers -->
+  </suite> <!-- Book Flight Test -->
+</testng-results>
